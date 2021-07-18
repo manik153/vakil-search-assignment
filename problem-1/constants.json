@@ -1,0 +1,44 @@
+{
+  "1": {
+    "method": "add_advocate",
+    "inputs": {"id": "Add an advocate:"}
+  },
+  "2": {
+    "method": "add_junior",
+    "inputs": {
+      "id": "Senior Advocate ID:",
+      "junior_id": "Junior ID:"
+    }
+  },
+  "3": {
+    "method": "add_state_for_advocate",
+    "inputs": {
+      "id": "Advocate ID:",
+      "state": "Practicing State:"
+    }
+  },
+  "4": {
+    "method": "add_case_for_advocate",
+    "inputs": {
+      "id": "Advocate ID:",
+      "case_id": "Case ID:", 
+      "case_state": "Practicing State:"
+    }
+  },
+  "5": {
+    "method": "reject_case",
+    "inputs": {
+      "id": "Advocate ID:",
+      "case_id": "Case ID:", 
+      "case_state": "Practicing State:"
+    }
+  },
+  "6": {
+    "method":"get_advocates",
+    "inputs": {}
+  },
+  "7": {
+    "method":"get_cases_in_state",
+    "inputs": {"state_id": "State ID:"}
+  }
+}
